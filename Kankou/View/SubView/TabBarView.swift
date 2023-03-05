@@ -21,11 +21,14 @@ struct TabBarView: View {
     @State private var weatherSelected = false
     @State private var profileSelected = false
     
+    @State private var currentView = "Home"
+    @State private var showMainView = false
+    
     @State private var tabBarUnderline = -UIScreen.screenWidth * 0.37
     @State private var tabBarUnderlineWidth: CGFloat = 10
     
-    @State private var currentView = "Home"
-    @State private var showMainView = false
+    @State private var navigatorTextColor: Color = .customPrimary
+    @State private var navigatorImageSize: CGFloat = 20
     
     var body: some View {
         ZStack {
@@ -42,9 +45,35 @@ struct TabBarView: View {
             }
             
             VStack(spacing: 0) {
+                HStack {
+                    Image("ImageLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(
+                            width: UIScreen.screenWidth / navigatorImageSize,
+                            height: UIScreen.screenWidth / navigatorImageSize
+                        )
+                    Text(currentView)
+                        .foregroundColor(navigatorTextColor)
+                        .font(.caption)
+                        .fontWeight(.semibold)
+                }
+                .padding(.horizontal)
+                .padding(.vertical, 4)
+                .frame(width: UIScreen.screenWidth / 2.5)
+                .background(Color.customTrueWhite)
+                .cornerRadius(12)
+                .shadow(color: Color.customTrueBlack.opacity(0.3), radius: 4)
+                .padding(.top, 4)
+                
+                    
                 Spacer()
                 HStack {
                     Button(action: {
+                        withAnimation(.easeIn(duration: 0.1)) {
+                            self.navigatorTextColor = .customTrueWhite
+                            self.navigatorImageSize = 200
+                        }
                         self.currentView = HOME
                         changeTabsState(true, false, false, false)
                         withAnimation(.easeIn(duration: tabBarUnderlineAnimDuration)) {
@@ -55,6 +84,11 @@ struct TabBarView: View {
                         }
                         withAnimation(.easeInOut(duration: tabBarUnderlineAnimDuration)) {
                             self.tabBarUnderlineWidth = 10
+                            self.navigatorTextColor = .customPrimary
+                        }
+                        withAnimation(.easeIn(duration: 0.3)) {
+                            self.navigatorTextColor = .customPrimary
+                            self.navigatorImageSize = 20
                         }
                     }) {
                         TabBarButtonComponent("house", HOME, $homeSelected)
@@ -62,6 +96,10 @@ struct TabBarView: View {
                     .padding(.horizontal)
                     Spacer()
                     Button(action: {
+                        withAnimation(.easeIn(duration: 0.1)) {
+                            self.navigatorTextColor = .customTrueWhite
+                            self.navigatorImageSize = 200
+                        }
                         self.currentView = PLAN
                         changeTabsState(false, true, false, false)
                         withAnimation(.easeIn(duration: tabBarUnderlineAnimDuration)) {
@@ -72,6 +110,11 @@ struct TabBarView: View {
                         }
                         withAnimation(.easeInOut(duration: tabBarUnderlineAnimDuration)) {
                             self.tabBarUnderlineWidth = 10
+                            self.navigatorTextColor = .customPrimary
+                        }
+                        withAnimation(.easeIn(duration: 0.3)) {
+                            self.navigatorTextColor = .customPrimary
+                            self.navigatorImageSize = 20
                         }
                     }) {
                         TabBarButtonComponent("list.bullet", PLAN, $planSelected)
@@ -79,6 +122,10 @@ struct TabBarView: View {
                     .padding(.horizontal)
                     Spacer()
                     Button(action: {
+                        withAnimation(.easeIn(duration: 0.1)) {
+                            self.navigatorTextColor = .customTrueWhite
+                            self.navigatorImageSize = 200
+                        }
                         self.currentView = WEATHER
                         changeTabsState(false, false, true, false)
                         withAnimation(.easeIn(duration: tabBarUnderlineAnimDuration)) {
@@ -89,6 +136,11 @@ struct TabBarView: View {
                         }
                         withAnimation(.easeInOut(duration: tabBarUnderlineAnimDuration)) {
                             self.tabBarUnderlineWidth = 10
+                            self.navigatorTextColor = .customPrimary
+                        }
+                        withAnimation(.easeIn(duration: 0.3)) {
+                            self.navigatorTextColor = .customPrimary
+                            self.navigatorImageSize = 20
                         }
                     }) {
                         TabBarButtonComponent("thermometer.low", WEATHER, $weatherSelected)
@@ -96,6 +148,10 @@ struct TabBarView: View {
                     .padding(.horizontal)
                     Spacer()
                     Button(action: {
+                        withAnimation(.easeIn(duration: 0.1)) {
+                            self.navigatorTextColor = .customTrueWhite
+                            self.navigatorImageSize = 200
+                        }
                         self.currentView = PROFILE
                         changeTabsState(false, false, false, true)
                         withAnimation(.easeIn(duration: tabBarUnderlineAnimDuration)) {
@@ -106,6 +162,11 @@ struct TabBarView: View {
                         }
                         withAnimation(.easeInOut(duration: tabBarUnderlineAnimDuration)) {
                             self.tabBarUnderlineWidth = 10
+                            self.navigatorTextColor = .customPrimary
+                        }
+                        withAnimation(.easeIn(duration: 0.3)) {
+                            self.navigatorTextColor = .customPrimary
+                            self.navigatorImageSize = 20
                         }
                     }) {
                         TabBarButtonComponent("person", PROFILE, $profileSelected)
