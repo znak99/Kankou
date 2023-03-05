@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0EA9FE29B4D7DB00005899 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EA9FD29B4D7DB00005899 /* PlanView.swift */; };
+		BD0EAA0029B4D81900005899 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EA9FF29B4D81900005899 /* WeatherView.swift */; };
+		BD0EAA0229B4D82400005899 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EAA0129B4D82400005899 /* ProfileView.swift */; };
+		BD0EAA0629B4E58C00005899 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EAA0529B4E58C00005899 /* UIScreenExtension.swift */; };
 		BD75F3A929B3804200C504D1 /* KankouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75F3A829B3804200C504D1 /* KankouApp.swift */; };
 		BD75F3AD29B3804200C504D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD75F3AC29B3804200C504D1 /* Assets.xcassets */; };
 		BD75F3B029B3804200C504D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD75F3AF29B3804200C504D1 /* Preview Assets.xcassets */; };
 		BDD18F0429B4451600193174 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0329B4451600193174 /* SplashView.swift */; };
 		BDD18F0629B448F500193174 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0529B448F500193174 /* HomeView.swift */; };
+		BDD18F0829B44D0600193174 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0729B44D0600193174 /* TabBarView.swift */; };
+		BDD18F0A29B44F2E00193174 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0929B44F2E00193174 /* ColorExtension.swift */; };
+		BDD18F0C29B4502D00193174 /* TabBarButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0B29B4502D00193174 /* TabBarButtonComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD0EA9FD29B4D7DB00005899 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		BD0EA9FF29B4D81900005899 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		BD0EAA0129B4D82400005899 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BD0EAA0529B4E58C00005899 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
 		BD75F3A529B3804200C504D1 /* Kankou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kankou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD75F3A829B3804200C504D1 /* KankouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KankouApp.swift; sourceTree = "<group>"; };
 		BD75F3AC29B3804200C504D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD75F3AF29B3804200C504D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDD18F0329B4451600193174 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		BDD18F0529B448F500193174 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BDD18F0729B44D0600193174 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		BDD18F0929B44F2E00193174 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BDD18F0B29B4502D00193174 /* TabBarButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +48,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD0EA9F729B4D50B00005899 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD0EAA0329B4D83000005899 /* CoreView */,
+				BD0EAA0429B4D83C00005899 /* SubView */,
+				BD0EA9FB29B4D53B00005899 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD0EA9F829B4D51200005899 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD0EA9FA29B4D51E00005899 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BD0EA9FB29B4D53B00005899 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BDD18F0B29B4502D00193174 /* TabBarButtonComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BD0EA9FC29B4D55B00005899 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDD18F0929B44F2E00193174 /* ColorExtension.swift */,
+				BD0EAA0529B4E58C00005899 /* UIScreenExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BD0EAA0329B4D83000005899 /* CoreView */ = {
+			isa = PBXGroup;
+			children = (
+				BDD18F0529B448F500193174 /* HomeView.swift */,
+				BD0EA9FD29B4D7DB00005899 /* PlanView.swift */,
+				BD0EA9FF29B4D81900005899 /* WeatherView.swift */,
+				BD0EAA0129B4D82400005899 /* ProfileView.swift */,
+			);
+			path = CoreView;
+			sourceTree = "<group>";
+		};
+		BD0EAA0429B4D83C00005899 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				BDD18F0729B44D0600193174 /* TabBarView.swift */,
+				BDD18F0329B4451600193174 /* SplashView.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
 		BD75F39C29B3804200C504D1 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				BD75F3A829B3804200C504D1 /* KankouApp.swift */,
-				BDD18F0329B4451600193174 /* SplashView.swift */,
-				BDD18F0529B448F500193174 /* HomeView.swift */,
+				BD0EA9F729B4D50B00005899 /* View */,
+				BD0EA9F829B4D51200005899 /* Model */,
+				BD0EA9FA29B4D51E00005899 /* ViewModel */,
+				BD0EA9FC29B4D55B00005899 /* Extensions */,
 				BD75F3AC29B3804200C504D1 /* Assets.xcassets */,
 				BD75F3AE29B3804200C504D1 /* Preview Content */,
 			);
@@ -141,8 +218,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDD18F0629B448F500193174 /* HomeView.swift in Sources */,
+				BD0EAA0229B4D82400005899 /* ProfileView.swift in Sources */,
 				BD75F3A929B3804200C504D1 /* KankouApp.swift in Sources */,
+				BDD18F0829B44D0600193174 /* TabBarView.swift in Sources */,
+				BDD18F0C29B4502D00193174 /* TabBarButtonComponent.swift in Sources */,
 				BDD18F0429B4451600193174 /* SplashView.swift in Sources */,
+				BD0EA9FE29B4D7DB00005899 /* PlanView.swift in Sources */,
+				BDD18F0A29B44F2E00193174 /* ColorExtension.swift in Sources */,
+				BD0EAA0029B4D81900005899 /* WeatherView.swift in Sources */,
+				BD0EAA0629B4E58C00005899 /* UIScreenExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
