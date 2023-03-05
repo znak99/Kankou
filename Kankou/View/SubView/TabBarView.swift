@@ -66,8 +66,8 @@ struct TabBarView: View {
                 .shadow(color: Color.customTrueBlack.opacity(0.3), radius: 4)
                 .padding(.top, 4)
                 
-                    
                 Spacer()
+                
                 HStack {
                     Button(action: {
                         withAnimation(.easeIn(duration: 0.1)) {
