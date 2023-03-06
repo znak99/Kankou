@@ -17,4 +17,7 @@ extension Color {
     static let customSecondary = Color(red: 171/255, green: 157/255, blue: 231/255)
     static let customGray = Color(red: 187/255, green: 187/255, blue: 187/255)
     static let customAccentBlue = Color(red: 31/255, green: 47/255, blue: 192/255)
+    static let customStateRed = Color(red: 233/255, green: 91/255, blue: 91/255)
+    static let customStateBlue = Color(red: 91/255, green: 139/255, blue: 233/255)
+    static let customStateGreen = Color(red: 152/255, green: 212/255, blue: 104/255)
 }
