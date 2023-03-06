@@ -14,6 +14,15 @@
 		BD75F3A929B3804200C504D1 /* KankouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75F3A829B3804200C504D1 /* KankouApp.swift */; };
 		BD75F3AD29B3804200C504D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD75F3AC29B3804200C504D1 /* Assets.xcassets */; };
 		BD75F3B029B3804200C504D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD75F3AF29B3804200C504D1 /* Preview Assets.xcassets */; };
+		BD821E0C29B5804400C47AD6 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E0B29B5804400C47AD6 /* FredokaOne-Regular.ttf */; };
+		BD821E1429B5804D00C47AD6 /* MPLUSRounded1c-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E0D29B5804C00C47AD6 /* MPLUSRounded1c-Medium.ttf */; };
+		BD821E1529B5804D00C47AD6 /* MPLUSRounded1c-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E0E29B5804C00C47AD6 /* MPLUSRounded1c-Bold.ttf */; };
+		BD821E1629B5804D00C47AD6 /* MPLUSRounded1c-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E0F29B5804D00C47AD6 /* MPLUSRounded1c-Black.ttf */; };
+		BD821E1729B5804D00C47AD6 /* MPLUSRounded1c-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1029B5804D00C47AD6 /* MPLUSRounded1c-Light.ttf */; };
+		BD821E1829B5804D00C47AD6 /* MPLUSRounded1c-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1129B5804D00C47AD6 /* MPLUSRounded1c-Thin.ttf */; };
+		BD821E1929B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1229B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf */; };
+		BD821E1A29B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */; };
+		BD821E1C29B580F000C47AD6 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E1B29B580F000C47AD6 /* FontExtension.swift */; };
 		BDD18F0429B4451600193174 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0329B4451600193174 /* SplashView.swift */; };
 		BDD18F0629B448F500193174 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0529B448F500193174 /* HomeView.swift */; };
 		BDD18F0829B44D0600193174 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0729B44D0600193174 /* TabBarView.swift */; };
@@ -30,6 +39,16 @@
 		BD75F3A829B3804200C504D1 /* KankouApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KankouApp.swift; sourceTree = "<group>"; };
 		BD75F3AC29B3804200C504D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD75F3AF29B3804200C504D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD821E0229B5800000C47AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BD821E0B29B5804400C47AD6 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		BD821E0D29B5804C00C47AD6 /* MPLUSRounded1c-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Medium.ttf"; sourceTree = "<group>"; };
+		BD821E0E29B5804C00C47AD6 /* MPLUSRounded1c-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Bold.ttf"; sourceTree = "<group>"; };
+		BD821E0F29B5804D00C47AD6 /* MPLUSRounded1c-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Black.ttf"; sourceTree = "<group>"; };
+		BD821E1029B5804D00C47AD6 /* MPLUSRounded1c-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Light.ttf"; sourceTree = "<group>"; };
+		BD821E1129B5804D00C47AD6 /* MPLUSRounded1c-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Thin.ttf"; sourceTree = "<group>"; };
+		BD821E1229B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Regular.ttf"; sourceTree = "<group>"; };
+		BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BD821E1B29B580F000C47AD6 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		BDD18F0329B4451600193174 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		BDD18F0529B448F500193174 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BDD18F0729B44D0600193174 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -85,6 +104,7 @@
 			children = (
 				BDD18F0929B44F2E00193174 /* ColorExtension.swift */,
 				BD0EAA0529B4E58C00005899 /* UIScreenExtension.swift */,
+				BD821E1B29B580F000C47AD6 /* FontExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -128,7 +148,9 @@
 		BD75F3A729B3804200C504D1 /* Kankou */ = {
 			isa = PBXGroup;
 			children = (
+				BD821E0229B5800000C47AD6 /* Info.plist */,
 				BD75F3A829B3804200C504D1 /* KankouApp.swift */,
+				BD821E0129B57FE700C47AD6 /* Fonts */,
 				BD0EA9F729B4D50B00005899 /* View */,
 				BD0EA9F829B4D51200005899 /* Model */,
 				BD0EA9FA29B4D51E00005899 /* ViewModel */,
@@ -145,6 +167,21 @@
 				BD75F3AF29B3804200C504D1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD821E0129B57FE700C47AD6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD821E0B29B5804400C47AD6 /* FredokaOne-Regular.ttf */,
+				BD821E0F29B5804D00C47AD6 /* MPLUSRounded1c-Black.ttf */,
+				BD821E0E29B5804C00C47AD6 /* MPLUSRounded1c-Bold.ttf */,
+				BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */,
+				BD821E1029B5804D00C47AD6 /* MPLUSRounded1c-Light.ttf */,
+				BD821E0D29B5804C00C47AD6 /* MPLUSRounded1c-Medium.ttf */,
+				BD821E1229B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf */,
+				BD821E1129B5804D00C47AD6 /* MPLUSRounded1c-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD821E1629B5804D00C47AD6 /* MPLUSRounded1c-Black.ttf in Resources */,
+				BD821E1829B5804D00C47AD6 /* MPLUSRounded1c-Thin.ttf in Resources */,
 				BD75F3B029B3804200C504D1 /* Preview Assets.xcassets in Resources */,
+				BD821E1729B5804D00C47AD6 /* MPLUSRounded1c-Light.ttf in Resources */,
+				BD821E1529B5804D00C47AD6 /* MPLUSRounded1c-Bold.ttf in Resources */,
+				BD821E1429B5804D00C47AD6 /* MPLUSRounded1c-Medium.ttf in Resources */,
+				BD821E1A29B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf in Resources */,
+				BD821E1929B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf in Resources */,
 				BD75F3AD29B3804200C504D1 /* Assets.xcassets in Resources */,
+				BD821E0C29B5804400C47AD6 /* FredokaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +271,7 @@
 				BD0EA9FE29B4D7DB00005899 /* PlanView.swift in Sources */,
 				BDD18F0A29B44F2E00193174 /* ColorExtension.swift in Sources */,
 				BD0EAA0029B4D81900005899 /* WeatherView.swift in Sources */,
+				BD821E1C29B580F000C47AD6 /* FontExtension.swift in Sources */,
 				BD0EAA0629B4E58C00005899 /* UIScreenExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +403,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Kankou/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kankou/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -384,6 +431,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Kankou/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kankou/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
