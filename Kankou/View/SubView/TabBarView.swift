@@ -55,8 +55,7 @@ struct TabBarView: View {
                         )
                     Text(currentView)
                         .foregroundColor(navigatorTextColor)
-                        .font(.caption)
-                        .fontWeight(.semibold)
+                        .font(.custom(Font.customFredoka, size: UIScreen.screenWidth / 30))
                 }
                 .padding(.horizontal)
                 .padding(.vertical, 4)

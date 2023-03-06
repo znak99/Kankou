@@ -23,6 +23,7 @@
 		BD821E1929B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1229B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf */; };
 		BD821E1A29B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */; };
 		BD821E1C29B580F000C47AD6 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E1B29B580F000C47AD6 /* FontExtension.swift */; };
+		BD821E1E29B5869300C47AD6 /* CustomIndicatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E1D29B5869300C47AD6 /* CustomIndicatorComponent.swift */; };
 		BDD18F0429B4451600193174 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0329B4451600193174 /* SplashView.swift */; };
 		BDD18F0629B448F500193174 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0529B448F500193174 /* HomeView.swift */; };
 		BDD18F0829B44D0600193174 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0729B44D0600193174 /* TabBarView.swift */; };
@@ -49,6 +50,7 @@
 		BD821E1229B5804D00C47AD6 /* MPLUSRounded1c-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-Regular.ttf"; sourceTree = "<group>"; };
 		BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-ExtraBold.ttf"; sourceTree = "<group>"; };
 		BD821E1B29B580F000C47AD6 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		BD821E1D29B5869300C47AD6 /* CustomIndicatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorComponent.swift; sourceTree = "<group>"; };
 		BDD18F0329B4451600193174 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		BDD18F0529B448F500193174 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BDD18F0729B44D0600193174 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BDD18F0B29B4502D00193174 /* TabBarButtonComponent.swift */,
+				BD821E1D29B5869300C47AD6 /* CustomIndicatorComponent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				BD0EAA0229B4D82400005899 /* ProfileView.swift in Sources */,
 				BD75F3A929B3804200C504D1 /* KankouApp.swift in Sources */,
 				BDD18F0829B44D0600193174 /* TabBarView.swift in Sources */,
+				BD821E1E29B5869300C47AD6 /* CustomIndicatorComponent.swift in Sources */,
 				BDD18F0C29B4502D00193174 /* TabBarButtonComponent.swift in Sources */,
 				BDD18F0429B4451600193174 /* SplashView.swift in Sources */,
 				BD0EA9FE29B4D7DB00005899 /* PlanView.swift in Sources */,

@@ -30,8 +30,7 @@ struct TabBarButtonComponent: View {
                 .font(.subheadline)
                 .fontWeight(.bold)
             Text(text)
-                .font(.footnote)
-                .fontWeight(.semibold)
+                .font(.custom(Font.customFredoka, size: UIScreen.screenWidth / 35))
         }
         .foregroundColor(isSelected ? .customPrimary : .customGray)
         .padding(.vertical, 4)
