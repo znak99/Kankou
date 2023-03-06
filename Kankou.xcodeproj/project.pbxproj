@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD0EA9FE29B4D7DB00005899 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EA9FD29B4D7DB00005899 /* PlanView.swift */; };
-		BD0EAA0029B4D81900005899 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EA9FF29B4D81900005899 /* WeatherView.swift */; };
+		BD0EAA0029B4D81900005899 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EA9FF29B4D81900005899 /* GuideView.swift */; };
 		BD0EAA0229B4D82400005899 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EAA0129B4D82400005899 /* ProfileView.swift */; };
 		BD0EAA0629B4E58C00005899 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EAA0529B4E58C00005899 /* UIScreenExtension.swift */; };
 		BD75F3A929B3804200C504D1 /* KankouApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD75F3A829B3804200C504D1 /* KankouApp.swift */; };
@@ -24,6 +24,11 @@
 		BD821E1A29B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */; };
 		BD821E1C29B580F000C47AD6 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E1B29B580F000C47AD6 /* FontExtension.swift */; };
 		BD821E1E29B5869300C47AD6 /* CustomIndicatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E1D29B5869300C47AD6 /* CustomIndicatorComponent.swift */; };
+		BD821E2329B5A44500C47AD6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E2229B5A44500C47AD6 /* LoginView.swift */; };
+		BD821E2529B5A76400C47AD6 /* NavigationViewBackButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E2429B5A76400C47AD6 /* NavigationViewBackButtonComponent.swift */; };
+		BD821E2729B5ACA000C47AD6 /* AuthenticationLogoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E2629B5ACA000C47AD6 /* AuthenticationLogoComponent.swift */; };
+		BD821E2929B5B47500C47AD6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E2829B5B47500C47AD6 /* RegisterView.swift */; };
+		BD821E2B29B5B48500C47AD6 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD821E2A29B5B48500C47AD6 /* PasswordResetView.swift */; };
 		BDD18F0429B4451600193174 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0329B4451600193174 /* SplashView.swift */; };
 		BDD18F0629B448F500193174 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0529B448F500193174 /* HomeView.swift */; };
 		BDD18F0829B44D0600193174 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD18F0729B44D0600193174 /* TabBarView.swift */; };
@@ -33,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		BD0EA9FD29B4D7DB00005899 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
-		BD0EA9FF29B4D81900005899 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		BD0EA9FF29B4D81900005899 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		BD0EAA0129B4D82400005899 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		BD0EAA0529B4E58C00005899 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
 		BD75F3A529B3804200C504D1 /* Kankou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kankou.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +56,11 @@
 		BD821E1329B5804D00C47AD6 /* MPLUSRounded1c-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MPLUSRounded1c-ExtraBold.ttf"; sourceTree = "<group>"; };
 		BD821E1B29B580F000C47AD6 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		BD821E1D29B5869300C47AD6 /* CustomIndicatorComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorComponent.swift; sourceTree = "<group>"; };
+		BD821E2229B5A44500C47AD6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BD821E2429B5A76400C47AD6 /* NavigationViewBackButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBackButtonComponent.swift; sourceTree = "<group>"; };
+		BD821E2629B5ACA000C47AD6 /* AuthenticationLogoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationLogoComponent.swift; sourceTree = "<group>"; };
+		BD821E2829B5B47500C47AD6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		BD821E2A29B5B48500C47AD6 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
 		BDD18F0329B4451600193174 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		BDD18F0529B448F500193174 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BDD18F0729B44D0600193174 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -97,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				BDD18F0B29B4502D00193174 /* TabBarButtonComponent.swift */,
+				BD821E2429B5A76400C47AD6 /* NavigationViewBackButtonComponent.swift */,
+				BD821E2629B5ACA000C47AD6 /* AuthenticationLogoComponent.swift */,
 				BD821E1D29B5869300C47AD6 /* CustomIndicatorComponent.swift */,
 			);
 			path = Components;
@@ -117,8 +129,9 @@
 			children = (
 				BDD18F0529B448F500193174 /* HomeView.swift */,
 				BD0EA9FD29B4D7DB00005899 /* PlanView.swift */,
-				BD0EA9FF29B4D81900005899 /* WeatherView.swift */,
+				BD0EA9FF29B4D81900005899 /* GuideView.swift */,
 				BD0EAA0129B4D82400005899 /* ProfileView.swift */,
+				BD821E1F29B5A27600C47AD6 /* Authentication */,
 			);
 			path = CoreView;
 			sourceTree = "<group>";
@@ -156,9 +169,9 @@
 				BD821E0129B57FE700C47AD6 /* Fonts */,
 				BD0EA9F729B4D50B00005899 /* View */,
 				BD0EA9F829B4D51200005899 /* Model */,
-				BD0EA9FA29B4D51E00005899 /* ViewModel */,
 				BD0EA9FC29B4D55B00005899 /* Extensions */,
 				BD75F3AC29B3804200C504D1 /* Assets.xcassets */,
+				BD0EA9FA29B4D51E00005899 /* ViewModel */,
 				BD75F3AE29B3804200C504D1 /* Preview Content */,
 			);
 			path = Kankou;
@@ -185,6 +198,16 @@
 				BD821E1129B5804D00C47AD6 /* MPLUSRounded1c-Thin.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BD821E1F29B5A27600C47AD6 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BD821E2229B5A44500C47AD6 /* LoginView.swift */,
+				BD821E2829B5B47500C47AD6 /* RegisterView.swift */,
+				BD821E2A29B5B48500C47AD6 /* PasswordResetView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +295,14 @@
 				BD821E1E29B5869300C47AD6 /* CustomIndicatorComponent.swift in Sources */,
 				BDD18F0C29B4502D00193174 /* TabBarButtonComponent.swift in Sources */,
 				BDD18F0429B4451600193174 /* SplashView.swift in Sources */,
+				BD821E2529B5A76400C47AD6 /* NavigationViewBackButtonComponent.swift in Sources */,
 				BD0EA9FE29B4D7DB00005899 /* PlanView.swift in Sources */,
 				BDD18F0A29B44F2E00193174 /* ColorExtension.swift in Sources */,
-				BD0EAA0029B4D81900005899 /* WeatherView.swift in Sources */,
+				BD821E2B29B5B48500C47AD6 /* PasswordResetView.swift in Sources */,
+				BD0EAA0029B4D81900005899 /* GuideView.swift in Sources */,
+				BD821E2729B5ACA000C47AD6 /* AuthenticationLogoComponent.swift in Sources */,
+				BD821E2329B5A44500C47AD6 /* LoginView.swift in Sources */,
+				BD821E2929B5B47500C47AD6 /* RegisterView.swift in Sources */,
 				BD821E1C29B580F000C47AD6 /* FontExtension.swift in Sources */,
 				BD0EAA0629B4E58C00005899 /* UIScreenExtension.swift in Sources */,
 			);

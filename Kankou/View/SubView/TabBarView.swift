@@ -11,14 +11,14 @@ struct TabBarView: View {
     
     private let HOME: String = "Home"
     private let PLAN: String = "Plan"
-    private let WEATHER: String = "Weather"
+    private let GUIDE: String = "Guide"
     private let PROFILE: String = "Profile"
     
     private let tabBarUnderlineAnimDuration = 0.5
     
     @State private var homeSelected = true
     @State private var planSelected = false
-    @State private var weatherSelected = false
+    @State private var guideSelected = false
     @State private var profileSelected = false
     
     @State private var currentView = "Home"
@@ -38,8 +38,8 @@ struct TabBarView: View {
                 HomeView()
             } else if currentView == PLAN {
                 PlanView()
-            } else if currentView == WEATHER {
-                WeatherView()
+            } else if currentView == GUIDE {
+                GuideView()
             } else if currentView == PROFILE {
                 ProfileView()
             }
@@ -125,7 +125,7 @@ struct TabBarView: View {
                             self.navigatorTextColor = .customTrueWhite
                             self.navigatorImageSize = 200
                         }
-                        self.currentView = WEATHER
+                        self.currentView = GUIDE
                         changeTabsState(false, false, true, false)
                         withAnimation(.easeIn(duration: tabBarUnderlineAnimDuration)) {
                             self.tabBarUnderlineWidth = 3
@@ -142,7 +142,7 @@ struct TabBarView: View {
                             self.navigatorImageSize = 20
                         }
                     }) {
-                        TabBarButtonComponent("thermometer.low", WEATHER, $weatherSelected)
+                        TabBarButtonComponent("info.square", GUIDE, $guideSelected)
                     }
                     .padding(.horizontal)
                     Spacer()
@@ -205,7 +205,7 @@ struct TabBarView: View {
     ) {
         self.homeSelected = home
         self.planSelected = plan
-        self.weatherSelected = weather
+        self.guideSelected = weather
         self.profileSelected = profile
     }
 }

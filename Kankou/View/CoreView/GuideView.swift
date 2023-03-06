@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct WeatherView: View {
+struct GuideView: View {
     var body: some View {
         Text("Weather")
     }
 }
 
-struct WeatherView_Previews: PreviewProvider {
+struct GuideView_Previews: PreviewProvider {
     static var previews: some View {
-        WeatherView()
+        GuideView()
     }
 }
