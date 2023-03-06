@@ -18,7 +18,9 @@ struct NavigationViewBackButtonComponent: View {
     var body: some View {
         VStack {
             HStack {
-                Button { dismiss() } label: {
+                Button {
+                    dismiss()
+                } label: {
                     Image(systemName: "chevron.backward")
                         .font(.title2)
                         .fontWeight(.semibold)

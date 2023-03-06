@@ -32,6 +32,9 @@ struct LoginView: View {
                             .shadow(color: Color.customPrimary, radius: 2)
                             .foregroundColor(.customBlack)
                             .font(.custom(Font.customMedium, size: UIScreen.screenWidth / 24))
+                            .textInputAutocapitalization(.never)
+                            .keyboardType(.emailAddress)
+                            .textContentType(.emailAddress)
                         SecureField("パスワード", text: $userPassword)
                             .padding(.horizontal)
                             .padding(.vertical, 8)
@@ -81,12 +84,14 @@ struct LoginView: View {
                     .padding(.top, UIScreen.screenWidth / 5)
                 }
             }
+            .padding(.top)
             .navigationBarBackButtonHidden()
+            .toolbar(.hidden)
         }
     }
     
     private func login() {
-        
+        dismiss()
     }
 }
 

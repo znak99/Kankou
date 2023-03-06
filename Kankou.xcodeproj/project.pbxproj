@@ -89,20 +89,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		BD0EA9F829B4D51200005899 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BD0EA9FA29B4D51E00005899 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		BD0EA9FB29B4D53B00005899 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,10 +154,8 @@
 				BD75F3A829B3804200C504D1 /* KankouApp.swift */,
 				BD821E0129B57FE700C47AD6 /* Fonts */,
 				BD0EA9F729B4D50B00005899 /* View */,
-				BD0EA9F829B4D51200005899 /* Model */,
 				BD0EA9FC29B4D55B00005899 /* Extensions */,
 				BD75F3AC29B3804200C504D1 /* Assets.xcassets */,
-				BD0EA9FA29B4D51E00005899 /* ViewModel */,
 				BD75F3AE29B3804200C504D1 /* Preview Content */,
 			);
 			path = Kankou;
